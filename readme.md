@@ -1,14 +1,35 @@
 # Go Blockchain Practice
 
-This repository contains a simple Go application demonstrating basic blockchain concepts. It implements functions to display all blocks in the chain, add a new block, and modify an existing block.
+git init
 
-## Getting Started
+git remote add origin https://github.com/Hertz-7/blockchain-1.git
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+touch blockchain/blockchain.go
 
-### Prerequisites
+touch main.go
 
-Ensure you have Go installed on your machine. To check if Go is installed, run:
+git branch -M main
 
-```bash
-go version
+git push -u origin main
+
+git add readme.md
+
+git commit -m "first commit"
+
+git checkout -b dev
+
+git checkout  main
+
+git merge dev
+
+git rm README.md
+
+git pull
+
+git add .
+
+git push origin main
+
+git status
+
+git log
